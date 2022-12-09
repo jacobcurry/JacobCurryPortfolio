@@ -1,2 +1,5 @@
 # JacobCurryPortfolio
+
 Portfolio
+
+My portfolio!
