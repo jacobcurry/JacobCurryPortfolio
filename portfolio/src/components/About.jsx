@@ -22,7 +22,7 @@ const About = () => {
           <div>
             <p>
               I'm a full stack software developer with a background in
-              construction and customer service. I started my proffesional
+              construction and customer service. I started my professional
               career in the construction field as an apprentice for a general
               contractor. I learned to be efficient in my work, that it takes a
               team to get things done, customer service is key to getting more
