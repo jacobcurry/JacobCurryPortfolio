@@ -14,18 +14,22 @@ const About = () => {
         </div>
         <div className="max-w-[925px] w-full sm:grid grid-cols-2 gap-8 px-4">
           <div className="text-4xl font-bold sm:text-right pb-4">
-            <p>Hi, I am Jacob, nice to meet you. Please take a look around.</p>
+            <p>
+              Hi, I am Jacob. I'm a huge sports fan and enjoy hanging out with
+              friends and family.
+            </p>
           </div>
           <div>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima,
-              atque? At, facilis esse autem corporis porro error, incidunt
-              debitis eos nihil ipsa ullam soluta? Earum veritatis laborum
-              aliquid cum quasi! Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Aliquid sapiente assumenda fugit. Assumenda,
-              recusandae! Tenetur provident, aut unde laboriosam deserunt dolor
-              iusto pariatur, cum dignissimos, architecto libero sit laborum
-              quos.
+              I'm a full stack software developer with a background in
+              construction and customer service. I started my proffesional
+              career in the construction field as an apprentice for a general
+              contractor. I learned to be efficient in my work, that it takes a
+              team to get things done, customer service is key to getting more
+              clients, and that I am not made for physical labor. Luckily all
+              those still apply to a software developer. I take those skills as
+              well as my love for solving problems and build efficient,
+              functional websites.
             </p>
           </div>
         </div>

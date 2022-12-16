@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { saveAs } from "file-saver";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/J.png";
 import { Link } from "react-scroll";
+import Resume from "../assets/resume.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -104,6 +104,31 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
+        <ul className="absolute flex top-0 mt-4">
+          <li className="h-[60px] w-[60px] bg-[#0077b5] flex justify-between items-center">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://www.linkedin.com/in/jacobcurry27"
+            >
+              <FaLinkedin size={30} />
+            </a>
+          </li>
+          <li className="h-[60px] w-[60px] bg-[#bd2c00] flex justify-between items-center">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://github.com/jacobcurry"
+            >
+              <FaGithub size={30} />
+            </a>
+          </li>
+          <li className="h-[60px] w-[60px] bg-[#565f69] flex justify-between items-center">
+            <a rel="noreferrer" target="_blank" href={Resume}>
+              <BsFillPersonLinesFill size={30} />
+            </a>
+          </li>
+        </ul>
       </ul>
       {/* Socail Icons */}
       <div className=" hidden lg:flex fixed flex-col top-[35%] left-0">
@@ -133,7 +158,7 @@ const Navbar = () => {
               rel="noreferrer"
               className="flex justify-between items-center w-full text-gray-300"
               target="_blank"
-              href="https://github.com/jacobcurry"
+              href={Resume}
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
